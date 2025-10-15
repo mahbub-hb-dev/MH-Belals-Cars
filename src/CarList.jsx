@@ -49,7 +49,7 @@ const CarList = () => {
   <ul className='flex flex-wrap'>
     {
       cars.map((car) => (
-        <li key={car.id} className='w-1/3 pr-3 pb-3'>
+        <li key={car.id} className='w-1/3 min-w-[250px] pr-3 pb-3'>
           <Car cars={car} />
         </li>
       ))

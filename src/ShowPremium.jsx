@@ -2,11 +2,10 @@ import React from 'react'
 
 const ShowPremium = () => {
   return (
-    <>
-        <label htmlFor="ispremium"></label>
+    <span className='max-md:block max-md:my-2.5'>
         <input type="checkbox" /> 
-        <span className='ml-2'>Show Premium Cars</span>
-    </>
+        <label className='ml-2'>Show Premium Cars</label>
+    </span>
   )
 }
 
